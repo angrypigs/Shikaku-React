@@ -1,0 +1,19 @@
+.base-button {
+    background: var(--button-bg);
+    color: var(--text-main);
+    padding: 15px 40px;
+    box-shadow: 4px 2px 2px rgb(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 24px;
+    user-select: none;
+    transition:
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+}
+
+.base-button:hover {
+    box-shadow: 4px 4px 4px rgba(176, 182, 6, 0.1);
+    transform: scale(1.02) translateY(-2px);
+}

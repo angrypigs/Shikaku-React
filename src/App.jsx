@@ -1,15 +1,13 @@
-import { useState } from 'react';
-import ShikakuMatrix from './components/ShikakuMatrix';
+import MainScreen from './screens/MainScreen';
+import GameScreen from './screens/GameScreen';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
-    const [count, setCount] = useState(0);
-
     return (
-        <>
-            <div>
-                <ShikakuMatrix rows={20} cols={30}></ShikakuMatrix>
-            </div>
-        </>
+        <Routes>
+            <Route path="/" element={<MainScreen />} />
+            <Route path="/game/:mode/:width/:height" element={<GameScreen />} />
+        </Routes>
     );
 }
 
