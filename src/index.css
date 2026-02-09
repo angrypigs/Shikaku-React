@@ -28,14 +28,18 @@ html {
 
 [data-theme='dark'] {
     --bg-app: linear-gradient(-45deg, #0a0a0a, #1e1e1e);
+    --bg-container: linear-gradient(-45deg, #1e1e1e, #272727);
     --text-main: #ffffff;
     --button-bg: linear-gradient(-45deg, #272727, #444444);
-    --tile-bg: #2d2d2d;
+    --tile-bg: #131313;
+    --accent: #000000;
 }
 
 [data-theme='blue'] {
     --bg-app: linear-gradient(-45deg, #140525, #160e4c);
+    --bg-container: linear-gradient(-45deg, #1d0737, #1d1164);
     --text-main: #4a9bd5;
-    --button-bg: #083d97;
-    --tile-bg: #1a1355;
+    --button-bg: linear-gradient(-45deg, #07275f, #083d97);
+    --tile-bg: #11031b;
+    --accent: #03001d;
 }

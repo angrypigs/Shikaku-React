@@ -6,7 +6,7 @@ function App() {
     return (
         <Routes>
             <Route path="/" element={<MainScreen />} />
-            <Route path="/game/:mode/:width/:height" element={<GameScreen />} />
+            <Route path="/game/:width/:height" element={<GameScreen />} />
         </Routes>
     );
 }
